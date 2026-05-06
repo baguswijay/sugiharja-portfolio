@@ -829,7 +829,15 @@ main {
   line-height: 1.6;
 }
 
-.timeline-text li {color: white; }
+ul.timeline-text {
+    
+    padding-left: 20px;
+}
+
+ul.timeline-text li {
+    list-style-type: disc !important;
+    color: white;
+}
 
 
 /**
