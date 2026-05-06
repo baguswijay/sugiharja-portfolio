@@ -1792,6 +1792,40 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+.btn-box {
+  display: flex;
+  justify-content: flex-end; /* Memindahkan isi ke kanan */
+}
+
+.btn-download {
+  display: inline-block;
+  
+  padding: 12px 24px;
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background-color: var(--light-gray-70); /* Warna biru yang lebih terang saat hover */
+  transform: translateY(-2px); /* Tombol sedikit naik */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-download:active {
+  transform: translateY(0);
+}
+
+.btn-download ion-icon {
+  margin-left:30px;
+  font-size: 2rem;
+}
+
 
 
 
